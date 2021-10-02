@@ -1,0 +1,619 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Empredimiento\\Makaya\\src\\services\\Payments\\Payments.Api\\Payments.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Empredimiento\\Makaya\\src\\Resolver\\Makaya.Resolver\\Makaya.Resolver.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Empredimiento\\Makaya\\src\\Resolver\\Makaya.Resolver\\Makaya.Resolver.csproj",
+        "projectName": "Makaya.Resolver",
+        "projectPath": "C:\\Empredimiento\\Makaya\\src\\Resolver\\Makaya.Resolver\\Makaya.Resolver.csproj",
+        "packagesPath": "C:\\Users\\PRADE\\.nuget\\packages\\",
+        "outputPath": "C:\\Empredimiento\\Makaya\\src\\Resolver\\Makaya.Resolver\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PRADE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Empredimiento\\Makaya\\src\\services\\Payments\\Payment.Service.EventHandlers\\Payment.Service.EventHandlers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Empredimiento\\Makaya\\src\\services\\Payments\\Payment.Service.EventHandlers\\Payment.Service.EventHandlers.csproj",
+        "projectName": "Payment.Service.EventHandlers",
+        "projectPath": "C:\\Empredimiento\\Makaya\\src\\services\\Payments\\Payment.Service.EventHandlers\\Payment.Service.EventHandlers.csproj",
+        "packagesPath": "C:\\Users\\PRADE\\.nuget\\packages\\",
+        "outputPath": "C:\\Empredimiento\\Makaya\\src\\services\\Payments\\Payment.Service.EventHandlers\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PRADE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Empredimiento\\Makaya\\src\\Resolver\\Makaya.Resolver\\Makaya.Resolver.csproj": {
+                "projectPath": "C:\\Empredimiento\\Makaya\\src\\Resolver\\Makaya.Resolver\\Makaya.Resolver.csproj"
+              },
+              "C:\\Empredimiento\\Makaya\\src\\services\\Payments\\Payments.Common\\Payments.Common.csproj": {
+                "projectPath": "C:\\Empredimiento\\Makaya\\src\\services\\Payments\\Payments.Common\\Payments.Common.csproj"
+              },
+              "C:\\Empredimiento\\Makaya\\src\\services\\Payments\\Peyment.Persistence.Database\\Peyment.Persistence.Database.csproj": {
+                "projectPath": "C:\\Empredimiento\\Makaya\\src\\services\\Payments\\Peyment.Persistence.Database\\Peyment.Persistence.Database.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[39.70.0, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Empredimiento\\Makaya\\src\\services\\Payments\\Payments.Api\\Payments.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Empredimiento\\Makaya\\src\\services\\Payments\\Payments.Api\\Payments.Api.csproj",
+        "projectName": "Payments.Api",
+        "projectPath": "C:\\Empredimiento\\Makaya\\src\\services\\Payments\\Payments.Api\\Payments.Api.csproj",
+        "packagesPath": "C:\\Users\\PRADE\\.nuget\\packages\\",
+        "outputPath": "C:\\Empredimiento\\Makaya\\src\\services\\Payments\\Payments.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PRADE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Empredimiento\\Makaya\\src\\services\\Payments\\Payment.Service.EventHandlers\\Payment.Service.EventHandlers.csproj": {
+                "projectPath": "C:\\Empredimiento\\Makaya\\src\\services\\Payments\\Payment.Service.EventHandlers\\Payment.Service.EventHandlers.csproj"
+              },
+              "C:\\Empredimiento\\Makaya\\src\\services\\Payments\\Payments.Service.Queries\\Payments.Service.Queries.csproj": {
+                "projectPath": "C:\\Empredimiento\\Makaya\\src\\services\\Payments\\Payments.Service.Queries\\Payments.Service.Queries.csproj"
+              },
+              "C:\\Empredimiento\\Makaya\\src\\services\\Payments\\Peyment.Persistence.Database\\Peyment.Persistence.Database.csproj": {
+                "projectPath": "C:\\Empredimiento\\Makaya\\src\\services\\Payments\\Peyment.Persistence.Database\\Peyment.Persistence.Database.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational.Design": {
+              "target": "Package",
+              "version": "[1.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Empredimiento\\Makaya\\src\\services\\Payments\\Payments.Common\\Payments.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Empredimiento\\Makaya\\src\\services\\Payments\\Payments.Common\\Payments.Common.csproj",
+        "projectName": "Payments.Common",
+        "projectPath": "C:\\Empredimiento\\Makaya\\src\\services\\Payments\\Payments.Common\\Payments.Common.csproj",
+        "packagesPath": "C:\\Users\\PRADE\\.nuget\\packages\\",
+        "outputPath": "C:\\Empredimiento\\Makaya\\src\\services\\Payments\\Payments.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PRADE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[39.70.0, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Empredimiento\\Makaya\\src\\services\\Payments\\Payments.Domain\\Payments.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Empredimiento\\Makaya\\src\\services\\Payments\\Payments.Domain\\Payments.Domain.csproj",
+        "projectName": "Payments.Domain",
+        "projectPath": "C:\\Empredimiento\\Makaya\\src\\services\\Payments\\Payments.Domain\\Payments.Domain.csproj",
+        "packagesPath": "C:\\Users\\PRADE\\.nuget\\packages\\",
+        "outputPath": "C:\\Empredimiento\\Makaya\\src\\services\\Payments\\Payments.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PRADE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Empredimiento\\Makaya\\src\\services\\Payments\\Payments.Service.Queries\\Payments.Service.Queries.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Empredimiento\\Makaya\\src\\services\\Payments\\Payments.Service.Queries\\Payments.Service.Queries.csproj",
+        "projectName": "Payments.Service.Queries",
+        "projectPath": "C:\\Empredimiento\\Makaya\\src\\services\\Payments\\Payments.Service.Queries\\Payments.Service.Queries.csproj",
+        "packagesPath": "C:\\Users\\PRADE\\.nuget\\packages\\",
+        "outputPath": "C:\\Empredimiento\\Makaya\\src\\services\\Payments\\Payments.Service.Queries\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PRADE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Empredimiento\\Makaya\\src\\Resolver\\Makaya.Resolver\\Makaya.Resolver.csproj": {
+                "projectPath": "C:\\Empredimiento\\Makaya\\src\\Resolver\\Makaya.Resolver\\Makaya.Resolver.csproj"
+              },
+              "C:\\Empredimiento\\Makaya\\src\\services\\Payments\\Payments.Common\\Payments.Common.csproj": {
+                "projectPath": "C:\\Empredimiento\\Makaya\\src\\services\\Payments\\Payments.Common\\Payments.Common.csproj"
+              },
+              "C:\\Empredimiento\\Makaya\\src\\services\\Payments\\Peyment.Persistence.Database\\Peyment.Persistence.Database.csproj": {
+                "projectPath": "C:\\Empredimiento\\Makaya\\src\\services\\Payments\\Peyment.Persistence.Database\\Peyment.Persistence.Database.csproj"
+              },
+              "C:\\Empredimiento\\Makaya\\src\\services\\Service.Common.Collection\\Service.Common.Collection.csproj": {
+                "projectPath": "C:\\Empredimiento\\Makaya\\src\\services\\Service.Common.Collection\\Service.Common.Collection.csproj"
+              },
+              "C:\\Empredimiento\\Makaya\\src\\services\\Service.Common.Mapping\\Service.Common.Mapping.csproj": {
+                "projectPath": "C:\\Empredimiento\\Makaya\\src\\services\\Service.Common.Mapping\\Service.Common.Mapping.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[39.70.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Empredimiento\\Makaya\\src\\services\\Payments\\Peyment.Persistence.Database\\Peyment.Persistence.Database.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Empredimiento\\Makaya\\src\\services\\Payments\\Peyment.Persistence.Database\\Peyment.Persistence.Database.csproj",
+        "projectName": "Peyment.Persistence.Database",
+        "projectPath": "C:\\Empredimiento\\Makaya\\src\\services\\Payments\\Peyment.Persistence.Database\\Peyment.Persistence.Database.csproj",
+        "packagesPath": "C:\\Users\\PRADE\\.nuget\\packages\\",
+        "outputPath": "C:\\Empredimiento\\Makaya\\src\\services\\Payments\\Peyment.Persistence.Database\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PRADE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Empredimiento\\Makaya\\src\\services\\Payments\\Payments.Domain\\Payments.Domain.csproj": {
+                "projectPath": "C:\\Empredimiento\\Makaya\\src\\services\\Payments\\Payments.Domain\\Payments.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational.Design": {
+              "target": "Package",
+              "version": "[1.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Empredimiento\\Makaya\\src\\services\\Service.Common.Collection\\Service.Common.Collection.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Empredimiento\\Makaya\\src\\services\\Service.Common.Collection\\Service.Common.Collection.csproj",
+        "projectName": "Service.Common.Collection",
+        "projectPath": "C:\\Empredimiento\\Makaya\\src\\services\\Service.Common.Collection\\Service.Common.Collection.csproj",
+        "packagesPath": "C:\\Users\\PRADE\\.nuget\\packages\\",
+        "outputPath": "C:\\Empredimiento\\Makaya\\src\\services\\Service.Common.Collection\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PRADE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Empredimiento\\Makaya\\src\\services\\Service.Common.Mapping\\Service.Common.Mapping.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Empredimiento\\Makaya\\src\\services\\Service.Common.Mapping\\Service.Common.Mapping.csproj",
+        "projectName": "Service.Common.Mapping",
+        "projectPath": "C:\\Empredimiento\\Makaya\\src\\services\\Service.Common.Mapping\\Service.Common.Mapping.csproj",
+        "packagesPath": "C:\\Users\\PRADE\\.nuget\\packages\\",
+        "outputPath": "C:\\Empredimiento\\Makaya\\src\\services\\Service.Common.Mapping\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PRADE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

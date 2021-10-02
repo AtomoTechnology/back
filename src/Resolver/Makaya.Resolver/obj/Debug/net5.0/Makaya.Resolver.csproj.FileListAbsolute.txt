@@ -14,7 +14,6 @@ C:\Empredimiento\Makaya\src\Resolver\Makaya.Resolver\bin\Debug\net5.0\Makaya.Res
 C:\Empredimiento\Makaya\src\Resolver\Makaya.Resolver\bin\Debug\net5.0\Makaya.Resolver.dll
 C:\Empredimiento\Makaya\src\Resolver\Makaya.Resolver\bin\Debug\net5.0\ref\Makaya.Resolver.dll
 C:\Empredimiento\Makaya\src\Resolver\Makaya.Resolver\bin\Debug\net5.0\Makaya.Resolver.pdb
-C:\Empredimiento\Makaya\src\Resolver\Makaya.Resolver\obj\Debug\net5.0\Makaya.Resolver.csproj.AssemblyReference.cache
 C:\Empredimiento\Makaya\src\Resolver\Makaya.Resolver\obj\Debug\net5.0\Makaya.Resolver.GeneratedMSBuildEditorConfig.editorconfig
 C:\Empredimiento\Makaya\src\Resolver\Makaya.Resolver\obj\Debug\net5.0\Makaya.Resolver.AssemblyInfoInputs.cache
 C:\Empredimiento\Makaya\src\Resolver\Makaya.Resolver\obj\Debug\net5.0\Makaya.Resolver.AssemblyInfo.cs

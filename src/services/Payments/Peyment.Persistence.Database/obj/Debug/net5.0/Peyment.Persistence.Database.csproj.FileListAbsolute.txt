@@ -1,0 +1,15 @@
+C:\Empredimiento\Makaya\src\services\Payments\Peyment.Persistence.Database\bin\Debug\net5.0\Peyment.Persistence.Database.deps.json
+C:\Empredimiento\Makaya\src\services\Payments\Peyment.Persistence.Database\bin\Debug\net5.0\Peyment.Persistence.Database.dll
+C:\Empredimiento\Makaya\src\services\Payments\Peyment.Persistence.Database\bin\Debug\net5.0\ref\Peyment.Persistence.Database.dll
+C:\Empredimiento\Makaya\src\services\Payments\Peyment.Persistence.Database\bin\Debug\net5.0\Peyment.Persistence.Database.pdb
+C:\Empredimiento\Makaya\src\services\Payments\Peyment.Persistence.Database\bin\Debug\net5.0\Payments.Domain.dll
+C:\Empredimiento\Makaya\src\services\Payments\Peyment.Persistence.Database\bin\Debug\net5.0\Payments.Domain.pdb
+C:\Empredimiento\Makaya\src\services\Payments\Peyment.Persistence.Database\obj\Debug\net5.0\Peyment.Persistence.Database.csproj.AssemblyReference.cache
+C:\Empredimiento\Makaya\src\services\Payments\Peyment.Persistence.Database\obj\Debug\net5.0\Peyment.Persistence.Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Empredimiento\Makaya\src\services\Payments\Peyment.Persistence.Database\obj\Debug\net5.0\Peyment.Persistence.Database.AssemblyInfoInputs.cache
+C:\Empredimiento\Makaya\src\services\Payments\Peyment.Persistence.Database\obj\Debug\net5.0\Peyment.Persistence.Database.AssemblyInfo.cs
+C:\Empredimiento\Makaya\src\services\Payments\Peyment.Persistence.Database\obj\Debug\net5.0\Peyment.Persistence.Database.csproj.CoreCompileInputs.cache
+C:\Empredimiento\Makaya\src\services\Payments\Peyment.Persistence.Database\obj\Debug\net5.0\Peyment.Persistence.Database.csproj.CopyComplete
+C:\Empredimiento\Makaya\src\services\Payments\Peyment.Persistence.Database\obj\Debug\net5.0\Peyment.Persistence.Database.dll
+C:\Empredimiento\Makaya\src\services\Payments\Peyment.Persistence.Database\obj\Debug\net5.0\ref\Peyment.Persistence.Database.dll
+C:\Empredimiento\Makaya\src\services\Payments\Peyment.Persistence.Database\obj\Debug\net5.0\Peyment.Persistence.Database.pdb

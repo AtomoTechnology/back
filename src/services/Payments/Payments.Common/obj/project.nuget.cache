@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "Q0Gaf34k51VlkQxvjHggsSpZuLXEyAZ22AouPAP8/cmnM1FHa1Oj9eRzC0XsfrHGkn+R/sQycWN6YKKQ7bod1Q==",
+  "success": true,
+  "projectFilePath": "C:\\Empredimiento\\Makaya\\src\\services\\Payments\\Payments.Common\\Payments.Common.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\PRADE\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\PRADE\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\PRADE\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\PRADE\\.nuget\\packages\\stripe.net\\39.70.0\\stripe.net.39.70.0.nupkg.sha512",
+    "C:\\Users\\PRADE\\.nuget\\packages\\system.configuration.configurationmanager\\5.0.0\\system.configuration.configurationmanager.5.0.0.nupkg.sha512",
+    "C:\\Users\\PRADE\\.nuget\\packages\\system.drawing.common\\5.0.0\\system.drawing.common.5.0.0.nupkg.sha512",
+    "C:\\Users\\PRADE\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
+    "C:\\Users\\PRADE\\.nuget\\packages\\system.security.cryptography.protecteddata\\5.0.0\\system.security.cryptography.protecteddata.5.0.0.nupkg.sha512",
+    "C:\\Users\\PRADE\\.nuget\\packages\\system.security.permissions\\5.0.0\\system.security.permissions.5.0.0.nupkg.sha512",
+    "C:\\Users\\PRADE\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
+    "C:\\Users\\PRADE\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

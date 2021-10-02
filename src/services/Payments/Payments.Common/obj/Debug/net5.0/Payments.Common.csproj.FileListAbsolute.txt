@@ -1,0 +1,12 @@
+C:\Empredimiento\Makaya\src\services\Payments\Payments.Common\bin\Debug\net5.0\Payments.Common.deps.json
+C:\Empredimiento\Makaya\src\services\Payments\Payments.Common\bin\Debug\net5.0\Payments.Common.dll
+C:\Empredimiento\Makaya\src\services\Payments\Payments.Common\bin\Debug\net5.0\ref\Payments.Common.dll
+C:\Empredimiento\Makaya\src\services\Payments\Payments.Common\bin\Debug\net5.0\Payments.Common.pdb
+C:\Empredimiento\Makaya\src\services\Payments\Payments.Common\obj\Debug\net5.0\Payments.Common.csproj.AssemblyReference.cache
+C:\Empredimiento\Makaya\src\services\Payments\Payments.Common\obj\Debug\net5.0\Payments.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Empredimiento\Makaya\src\services\Payments\Payments.Common\obj\Debug\net5.0\Payments.Common.AssemblyInfoInputs.cache
+C:\Empredimiento\Makaya\src\services\Payments\Payments.Common\obj\Debug\net5.0\Payments.Common.AssemblyInfo.cs
+C:\Empredimiento\Makaya\src\services\Payments\Payments.Common\obj\Debug\net5.0\Payments.Common.csproj.CoreCompileInputs.cache
+C:\Empredimiento\Makaya\src\services\Payments\Payments.Common\obj\Debug\net5.0\Payments.Common.dll
+C:\Empredimiento\Makaya\src\services\Payments\Payments.Common\obj\Debug\net5.0\ref\Payments.Common.dll
+C:\Empredimiento\Makaya\src\services\Payments\Payments.Common\obj\Debug\net5.0\Payments.Common.pdb
