@@ -61,8 +61,6 @@ namespace Peyment.Persistence.Database.Migrations
 
                     b.HasKey("PlanId");
 
-                    b.HasIndex("PlanId");
-
                     b.HasIndex("PruductProductId");
 
                     b.ToTable("Plans");
@@ -91,15 +89,15 @@ namespace Peyment.Persistence.Database.Migrations
 
                     b.HasKey("ProductId");
 
-                    b.HasIndex("ProductId");
-
                     b.ToTable("Pruducts");
                 });
 
             modelBuilder.Entity("Payments.Domain.Subscribe", b =>
                 {
-                    b.Property<string>("SubscribeId")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<long>("SubscribeId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("AccountId")
                         .IsRequired()
@@ -131,8 +129,6 @@ namespace Peyment.Persistence.Database.Migrations
                         .HasColumnType("int");
 
                     b.HasKey("SubscribeId");
-
-                    b.HasIndex("SubscribeId");
 
                     b.ToTable("Subscribes");
                 });

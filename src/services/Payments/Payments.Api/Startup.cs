@@ -1,6 +1,7 @@
 using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -32,12 +33,20 @@ namespace Payments.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //Cors
+            services.AddCors();
+
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+
             services.AddDbContext<ApplicationDbContext>(
               cnn => cnn.UseSqlServer(
                   Configuration.GetConnectionString("DefaultConnection"),
                   x => x.MigrationsHistoryTable("_EFMigrationsHistory", "Makaya")
               )
           );
+            services.AddSingleton(c => Configuration);
+            // Add MVC services to the services container.
+            services.AddMvc();
             // Event handlers
             services.AddMediatR(Assembly.Load("Payment.Service.EventHandlers")); 
             // Query services
@@ -50,6 +59,13 @@ namespace Payments.Api
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            //Cors
+            app.UseCors(opt => {
+                opt.WithOrigins("*");
+                opt.AllowAnyMethod();
+                opt.AllowAnyHeader();
+            });
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();

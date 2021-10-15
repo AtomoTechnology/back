@@ -12,7 +12,7 @@ namespace Peyment.Persistence.Database.Configuration
     {
         public ProductConfiguration(EntityTypeBuilder<Product> entityBuilder)
         {
-            entityBuilder.HasIndex(u => u.ProductId);
+            entityBuilder.HasKey(u => u.ProductId);
             entityBuilder.Property(u => u.description).HasMaxLength(250);
             entityBuilder.Property(u => u.name).HasMaxLength(250);
         }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "kcNGoKJ5Nd+336aeONaH9Pm8E3lc6bZ2zDi3VYBa4zfqXHK5bAN8cCLEcIKsW+QNEisz0C7b4HP6wlDpXVhp+w==",
+  "dgSpecHash": "zn/KJ1+6A9wZBtKPmI3CtgT1Buxwry1AA3nW3TvXl4ZaKsTM08bGUoIxw2af4u8Nb6SqqRcxupr7jeTDj00XsQ==",
   "success": true,
   "projectFilePath": "C:\\Empredimiento\\Makaya\\src\\services\\Identity\\Identity.Service.EventHandlers\\Identity.Service.EventHandlers.csproj",
   "expectedPackageFiles": [

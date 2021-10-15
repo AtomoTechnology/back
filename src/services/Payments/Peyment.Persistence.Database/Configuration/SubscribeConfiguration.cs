@@ -12,7 +12,7 @@ namespace Peyment.Persistence.Database.Configuration
     {
         public SubscribeConfiguration(EntityTypeBuilder<Subscribe> entityBuilder)
         {
-            entityBuilder.HasIndex(u => u.SubscribeId);
+            entityBuilder.HasKey(u => u.SubscribeId);
             entityBuilder.Property(u => u.AccountId).IsRequired();
             entityBuilder.Property(u => u.PlanPriceSID).IsRequired();
             entityBuilder.Property(u => u.CustomerID).IsRequired();

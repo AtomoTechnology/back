@@ -75,17 +75,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.Persistence", "03.Persis
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.Models", "04.Models", "{4533F09A-80BF-4B14-BEC5-E2869287BF92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payments.Domain", "src\services\Payments\Payments.Domain\Payments.Domain.csproj", "{0223A6E3-DCB8-4F0D-B10F-8E806333E375}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Payments.Domain", "src\services\Payments\Payments.Domain\Payments.Domain.csproj", "{0223A6E3-DCB8-4F0D-B10F-8E806333E375}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payments.Api", "src\services\Payments\Payments.Api\Payments.Api.csproj", "{35C16D56-73FA-437C-84FA-FDB9CC6477C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Payments.Api", "src\services\Payments\Payments.Api\Payments.Api.csproj", "{35C16D56-73FA-437C-84FA-FDB9CC6477C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payment.Service.EventHandlers", "src\services\Payments\Payment.Service.EventHandlers\Payment.Service.EventHandlers.csproj", "{2D381088-C635-455C-817D-DFA3D86A2A6B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Payment.Service.EventHandlers", "src\services\Payments\Payment.Service.EventHandlers\Payment.Service.EventHandlers.csproj", "{2D381088-C635-455C-817D-DFA3D86A2A6B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payments.Service.Queries", "src\services\Payments\Payments.Service.Queries\Payments.Service.Queries.csproj", "{3AE8C418-C1FC-46F9-80A1-C0E11DC6FA5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Payments.Service.Queries", "src\services\Payments\Payments.Service.Queries\Payments.Service.Queries.csproj", "{3AE8C418-C1FC-46F9-80A1-C0E11DC6FA5D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payments.Common", "src\services\Payments\Payments.Common\Payments.Common.csproj", "{FCBB7CD9-2969-4334-ABF4-F3CA00DFC322}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Payments.Common", "src\services\Payments\Payments.Common\Payments.Common.csproj", "{FCBB7CD9-2969-4334-ABF4-F3CA00DFC322}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Peyment.Persistence.Database", "src\services\Payments\Peyment.Persistence.Database\Peyment.Persistence.Database.csproj", "{FBB1259B-28C7-4AC9-A589-2901DFD925B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Peyment.Persistence.Database", "src\services\Payments\Peyment.Persistence.Database\Peyment.Persistence.Database.csproj", "{FBB1259B-28C7-4AC9-A589-2901DFD925B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.Api", "01.Api", "{B148731F-86C3-43E1-A0D0-3D7EEB22E272}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.Gateway.Models", "src\Api.Gateway\Api.Gateway.Models\Api.Gateway.Models.csproj", "{9132E4F7-AECB-4E9E-B22D-D1B18F2BE3F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.Gateway.Proxies", "src\Api.Gateway\Api.Gateway.Proxies\Api.Gateway.Proxies.csproj", "{680AD70E-F31F-47D2-B8F0-053078F7C801}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.Gateway.WebClient", "src\Api.Gateway\Apis\Api.Gateway.WebClient\Api.Gateway.WebClient.csproj", "{F5AC5D82-6592-41F8-9C78-1472D829572A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -177,6 +185,18 @@ Global
 		{FBB1259B-28C7-4AC9-A589-2901DFD925B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBB1259B-28C7-4AC9-A589-2901DFD925B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBB1259B-28C7-4AC9-A589-2901DFD925B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9132E4F7-AECB-4E9E-B22D-D1B18F2BE3F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9132E4F7-AECB-4E9E-B22D-D1B18F2BE3F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9132E4F7-AECB-4E9E-B22D-D1B18F2BE3F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9132E4F7-AECB-4E9E-B22D-D1B18F2BE3F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{680AD70E-F31F-47D2-B8F0-053078F7C801}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{680AD70E-F31F-47D2-B8F0-053078F7C801}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{680AD70E-F31F-47D2-B8F0-053078F7C801}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{680AD70E-F31F-47D2-B8F0-053078F7C801}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5AC5D82-6592-41F8-9C78-1472D829572A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5AC5D82-6592-41F8-9C78-1472D829572A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5AC5D82-6592-41F8-9C78-1472D829572A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5AC5D82-6592-41F8-9C78-1472D829572A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -221,6 +241,10 @@ Global
 		{3AE8C418-C1FC-46F9-80A1-C0E11DC6FA5D} = {D1B381CC-FD29-4B54-B4DC-7AAA4478C50D}
 		{FCBB7CD9-2969-4334-ABF4-F3CA00DFC322} = {D1B381CC-FD29-4B54-B4DC-7AAA4478C50D}
 		{FBB1259B-28C7-4AC9-A589-2901DFD925B1} = {367D087C-1A82-4A33-B11A-A533C6C93131}
+		{B148731F-86C3-43E1-A0D0-3D7EEB22E272} = {ABB921EE-0487-445B-882F-48378AC89C05}
+		{9132E4F7-AECB-4E9E-B22D-D1B18F2BE3F8} = {ABB921EE-0487-445B-882F-48378AC89C05}
+		{680AD70E-F31F-47D2-B8F0-053078F7C801} = {ABB921EE-0487-445B-882F-48378AC89C05}
+		{F5AC5D82-6592-41F8-9C78-1472D829572A} = {B148731F-86C3-43E1-A0D0-3D7EEB22E272}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FF01C028-B0D3-467D-AC87-59511631335D}

@@ -12,7 +12,7 @@ namespace Peyment.Persistence.Database.Configuration
     {
         public PlanConfiguration(EntityTypeBuilder<Plan> entityBuilder)
         {
-            entityBuilder.HasIndex(u => u.PlanId);
+            entityBuilder.HasKey(u => u.PlanId);
             entityBuilder.Property(u => u.AccountId).IsRequired();
             entityBuilder.Property(u => u.idProduct).IsRequired();
             entityBuilder.Property(u => u.idplanstripe).IsRequired();

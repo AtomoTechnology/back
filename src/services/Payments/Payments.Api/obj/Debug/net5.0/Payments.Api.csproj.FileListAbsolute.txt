@@ -73,3 +73,5 @@ C:\Empredimiento\Makaya\src\services\Payments\Payments.Api\bin\Debug\net5.0\Serv
 C:\Empredimiento\Makaya\src\services\Payments\Payments.Api\bin\Debug\net5.0\Payments.Service.Queries.pdb
 C:\Empredimiento\Makaya\src\services\Payments\Payments.Api\bin\Debug\net5.0\Service.Common.Collection.pdb
 C:\Empredimiento\Makaya\src\services\Payments\Payments.Api\bin\Debug\net5.0\Service.Common.Mapping.pdb
+C:\Empredimiento\Makaya\src\services\Payments\Payments.Api\bin\Debug\net5.0\Localization.SqlLocalizer.dll
+C:\Empredimiento\Makaya\src\services\Payments\Payments.Api\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.InMemory.dll
