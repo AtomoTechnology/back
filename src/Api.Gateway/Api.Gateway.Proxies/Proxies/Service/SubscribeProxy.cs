@@ -36,7 +36,7 @@ namespace Api.Gateway.Proxies.Proxies.Service
 
         public async Task<DataCollection<PaymentSubScribeCommandDTO>> GetAllAsync(int page, int take)
         {
-            var request = await _httpClient.GetAsync($"{_apiUrls.SubscribeUrl}v1/PaymentSubScribe?page={page}&take={take}");
+            var request = await _httpClient.GetAsync($"{_apiUrls.SubscribeUrl}api/v1/PaymentSubScribe?page={page}&take={take}");
             request.EnsureSuccessStatusCode();
 
             return JsonSerializer.Deserialize<DataCollection<PaymentSubScribeCommandDTO>>(
@@ -50,7 +50,7 @@ namespace Api.Gateway.Proxies.Proxies.Service
 
         public async Task<PaymentSubScribeCommandDTO> GetAsync(int id)
         {
-            var request = await _httpClient.GetAsync($"{_apiUrls.SubscribeUrl}v1/PaymentSubScribe/{id}");
+            var request = await _httpClient.GetAsync($"{_apiUrls.SubscribeUrl}api/v1/PaymentSubScribe/{id}");
             request.EnsureSuccessStatusCode();
 
             return JsonSerializer.Deserialize<PaymentSubScribeCommandDTO>(
@@ -70,7 +70,7 @@ namespace Api.Gateway.Proxies.Proxies.Service
                "application/json"
            );
 
-            var request = await _httpClient.PostAsync($"{_apiUrls.SubscribeUrl}v1/PaymentSubScribe", content);
+            var request = await _httpClient.PostAsync($"{_apiUrls.SubscribeUrl}api/v1/PaymentSubScribe", content);
             request.EnsureSuccessStatusCode();
         }
 
@@ -82,7 +82,7 @@ namespace Api.Gateway.Proxies.Proxies.Service
               "application/json"
           );
 
-            var request = await _httpClient.PutAsync($"{_apiUrls.SubscribeUrl}v1/PaymentSubScribe", content);
+            var request = await _httpClient.PutAsync($"{_apiUrls.SubscribeUrl}api/v1/PaymentSubScribe", content);
             request.EnsureSuccessStatusCode();
         }
 
@@ -93,7 +93,7 @@ namespace Api.Gateway.Proxies.Proxies.Service
                  Encoding.UTF8,
                  "application/json"
              );
-            var request = await _httpClient.PutAsync($"{_apiUrls.SubscribeUrl}v1/PaymentSubScribe", content);
+            var request = await _httpClient.PutAsync($"{_apiUrls.SubscribeUrl}api/v1/PaymentSubScribe", content);
             request.EnsureSuccessStatusCode();
         }
     }

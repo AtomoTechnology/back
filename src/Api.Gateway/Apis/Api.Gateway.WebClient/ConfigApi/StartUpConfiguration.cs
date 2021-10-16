@@ -23,6 +23,7 @@ namespace Api.Gateway.WebClient.ConfigApi
             service.AddHttpContextAccessor();
 
             service.AddHttpClient<ISubscribeProxy, SubscribeProxy>();
+            service.AddHttpClient<IPlanProxy, PlanProxy>(); 
 
             return service;
         }
